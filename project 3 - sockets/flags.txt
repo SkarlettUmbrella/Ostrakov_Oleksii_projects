@@ -1,0 +1,10 @@
+Flags:
+1 - SYN
+2 - ACK
+3 - SYN, ACK
+4 - WAIT
+5 - RST
+6 - FIN
+7 - FIN, ACK
+
+Wireshark filter - udp.port eq 5001 && udp.port eq 5002
